@@ -1,3 +1,4 @@
+ /* Estilos generales */
 body{
     background: #141414;;
 }
@@ -9,6 +10,8 @@ p, a, h1, h2, button{
 a{
     text-decoration: none;
 }
+
+ /* Navbar */
 
 header nav{
     background-image: linear-gradient(to bottom,rgba(0,0,0,.7) 10%,rgba(0,0,0,0));
@@ -55,6 +58,7 @@ header nav{
     margin-right: 1%;
 }
 
+ /* Contenedores principales en main */
 
 .containerProfiles, .container-bigMovie{
     height: 800px;
@@ -177,6 +181,8 @@ header nav{
     width: 16%;
 }
 
+ /* Caruseles */
+
 .carusel-movies img{
     width: 15.5%;
     margin-left: 0.5%;
@@ -216,7 +222,6 @@ header nav{
 
 .row-links a{
     color: grey;
-    
 }
 
 .row-links li{
@@ -240,7 +245,6 @@ header nav{
     color: white;
 }
 
-
 .container-footer button{
     border: 1px gray solid;
     background-color: transparent;
@@ -258,6 +262,8 @@ header nav{
     color: white;
 }
 
+
+ /* Medias */
 @media screen and (max-width: 1400px) {
     .movie6{
       display: none;
@@ -283,7 +289,7 @@ header nav{
     .logo{
         width: 8%;
     }
-  }
+}
 
 @media screen and (max-width: 1100px) {
     .movie5{
@@ -319,10 +325,10 @@ header nav{
     .logo{
         width: 11%;
     }
-  }
+}
 
 
-  @media screen and (max-width: 992px) {
+@media screen and (max-width: 992px) {
     .firstCol{
         display: none;
     }
@@ -353,7 +359,7 @@ header nav{
     .caret{
         display: none;
     } 
-  }
+}
   
 
 @media screen and (max-width: 800px) {
@@ -380,17 +386,17 @@ header nav{
     .image-profile{
         width: 5% !important;
     } 
-  }
+}
 
 
-  @media screen and (max-width: 767px) {
+@media screen and (max-width: 767px) {
     .plusCircle{
       width: 150px;
       height: 150px;
     }
-  }
+}
 
-  @media screen and (max-width: 575px) {
+@media screen and (max-width: 575px) {
     .col-bigMovie{
         width: 50%;    
     }
@@ -414,7 +420,7 @@ header nav{
     footer{
         width: 98%;
     }
-  }
+}
 
 
 @media screen and (max-width: 500px) {
@@ -434,17 +440,17 @@ header nav{
         width: 140px;
         height: 140px;
       }
-  }
+}
 
-  @media screen and (max-width: 450px) {
+@media screen and (max-width: 450px) {
     .plusCircle{
         width: 125px;
         height: 125px;
       }
-  }
+}
 
 
-  @media screen and (max-width: 400px) {
+@media screen and (max-width: 400px) {
     .button-moreInformation img{
         margin-top: 0px;
     }
@@ -457,11 +463,11 @@ header nav{
         width: 110px;
         height: 110px;
       }
-  }
+}
 
-  @media screen and (max-width: 350px) {
+@media screen and (max-width: 350px) {
     .plusCircle{
         width: 95px;
         height: 95px;
       }
-  }
+}
